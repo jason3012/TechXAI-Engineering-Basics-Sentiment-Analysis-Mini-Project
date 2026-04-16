@@ -68,5 +68,5 @@ def main() -> None:
         print(f"pos={result['positive']:.3f} neu={result['neutral']:.3f} neg={result['negative']:.3f}")
 
 
-#if __name__ == "__main__":
+if __name__ == "__main__":
     main()
