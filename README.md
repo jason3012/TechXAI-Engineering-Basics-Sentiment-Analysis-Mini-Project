@@ -1,6 +1,6 @@
 # Sentiment Analysis
 
-Classifies text as **Positive**, **Negative**, or **Neutral** using [`cardiffnlp/twitter-roberta-base-sentiment-latest`](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest), a RoBERTa model fine-tuned on ~124M tweets.
+Classifies text as **Positive**, **Negative**, or **Neutral** using [`cardiffnlp/twitter-roberta-base-sentiment-latest`](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest)
 
 ---
 
@@ -73,3 +73,9 @@ Two sentences the model struggled with:
 **"Oh great, another Monday."** expected Negative, got Positive (0.586). The model picks up on "great" and misses the sarcasm. The low score at least shows it wasn't confident. Sarcasm is generally hard for these models without more context.
 
 **"This could have been worse."** expected Positive, got Negative (0.872). "Worse" pulls it negative even though the sentence is implying things turned out okay, hence a positive expecation. This one is surprising given how high the confidence was.
+
+---
+
+## Demo
+
+[`Screen recording demonstration`](https://drive.google.com/file/d/1w8-NLAVSYiWu1I2BCHCWtN1rXXCT8872/view?usp=sharing)
